@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>rosban_viewer</name>
+  <version>0.0.0</version>
+  <description>A package containing a viewer based on SFML, it requires sfml, GL and GLU</description>
+
+  <maintainer email="medrimonia@gmail.com">medrimonia</maintainer>
+  <author email="medrimonia@gmail.com">medrimonia</author>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
