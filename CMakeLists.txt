@@ -22,7 +22,7 @@ set(EXTRA_LIBS ${EXTRA_LIBS}
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES rosban_utils ${EXTRA_LIBS}
+  LIBRARIES rosban_viewer ${EXTRA_LIBS}
   DEPENDS Eigen
 )
 
