@@ -1,5 +1,6 @@
 #include <SFML/OpenGL.hpp>
 #include "rosban_viewer/viewer.h"
+#include <GL/glu.h>
 
 using sf::Event;
 using sf::Keyboard;
