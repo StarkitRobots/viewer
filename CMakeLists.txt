@@ -1,10 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(rosban_viewer)
 
-find_package(catkin REQUIRED)
-
-find_package(PkgConfig)
-pkg_search_module(Eigen3 REQUIRED eigen3)
+find_package(catkin REQUIRED COMPONENTS Eigen)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
     
@@ -19,7 +16,7 @@ set(EXTRA_LIBS ${EXTRA_LIBS}
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES rosban_viewer ${EXTRA_LIBS}
-  DEPENDS Eigen3
+  CATKIN_DEPENDS Eigen
 )
 
 ###########
@@ -31,7 +28,6 @@ catkin_package(
 include_directories(
   include
   ${catkin_INCLUDE_DIRS} 
-  ${Eigen3_INCLUDE_DIRS}
 )
 
 # Declare a C++ library
