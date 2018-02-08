@@ -1,6 +1,6 @@
 #pragma once
 
-namespace rosban_viewer {
+namespace rhoban_viewer {
 
 class Color {
 public:

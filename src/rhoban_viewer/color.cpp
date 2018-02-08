@@ -1,6 +1,6 @@
-#include "rosban_viewer/color.h"
+#include "rhoban_viewer/color.h"
 
-namespace rosban_viewer {
+namespace rhoban_viewer {
 
 const Color Color::red(1,0,0);
 const Color Color::green(0,1,0);

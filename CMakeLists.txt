@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(rosban_viewer)
+project(rhoban_viewer)
 
-find_package(catkin REQUIRED COMPONENTS Eigen)
+find_package(catkin REQUIRED COMPONENTS eigen)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
     
@@ -15,8 +15,8 @@ set(EXTRA_LIBS ${EXTRA_LIBS}
 
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES rosban_viewer ${EXTRA_LIBS}
-  CATKIN_DEPENDS Eigen
+  LIBRARIES rhoban_viewer ${EXTRA_LIBS}
+  CATKIN_DEPENDS eigen
 )
 
 ###########
@@ -31,9 +31,9 @@ include_directories(
 )
 
 # Declare a C++ library
-add_library(rosban_viewer
-  src/rosban_viewer/color.cpp
-  src/rosban_viewer/viewer.cpp
+add_library(rhoban_viewer
+  src/rhoban_viewer/color.cpp
+  src/rhoban_viewer/viewer.cpp
 )
 
-target_link_libraries(rosban_viewer ${catkin_LIBRARIES})
+target_link_libraries(rhoban_viewer ${catkin_LIBRARIES})

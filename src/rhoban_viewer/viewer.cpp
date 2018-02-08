@@ -1,11 +1,11 @@
 #include <SFML/OpenGL.hpp>
-#include "rosban_viewer/viewer.h"
+#include "rhoban_viewer/viewer.h"
 #include <GL/glu.h>
 
 using sf::Event;
 using sf::Keyboard;
 
-namespace rosban_viewer {
+namespace rhoban_viewer {
 
 Viewer::Viewer(unsigned int width, 
                unsigned int height) :

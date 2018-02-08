@@ -1,6 +1,6 @@
 #pragma once
 
-#include "rosban_viewer/color.h"
+#include "rhoban_viewer/color.h"
 
 #include <functional>
 #include <map>
@@ -8,7 +8,7 @@
 #include <SFML/Graphics.hpp>
 #include <Eigen/Dense>
 
-namespace rosban_viewer {
+namespace rhoban_viewer {
 
 /**
  * Viewer
