@@ -3,7 +3,7 @@ project(rhoban_viewer)
 
 find_package(catkin REQUIRED COMPONENTS eigen)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
     
 set(EXTRA_LIBS ${EXTRA_LIBS} 
   sfml-graphics
